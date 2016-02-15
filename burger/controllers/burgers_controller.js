@@ -6,9 +6,9 @@ var router = express.Router();
 var thing = require('../models/burger.js');
 
 //get route -> index
-router.get('/index', function(req,res) {
+router.get('/server.js', function(req,res) {
 	burger.findAllthings(function(data){
-		res.render('index', {data});
+		res.render('server.js', {data});
 	});
 });
 

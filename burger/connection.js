@@ -3,7 +3,7 @@ The connection and export to the database used by the O.R.M.
 */
 var mysql = require('mysql');
 var connection = mysql.createConnection({
-    port: 
+    port: 3306
     host: 'localhost',
     user: 'root',
     password: 
