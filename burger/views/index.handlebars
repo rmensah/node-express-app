@@ -5,15 +5,13 @@ Here is where the handlebars template is setup for displaying data.
 	<div class='col-m6'>
 		<ul>	
   		{{#each data}}
-  		{{#if this.thing_state}}
-			<pre>{{this.thing_name}}</pre>
-			{{/if}}
+  		
   		{{/each}}
   	</ul>	
   </div>		
 </div>
 
-<form action="/create" method="POST">
+<form action="/" method="POST">
 	<textarea class="form-control" type="text" name="burgerchoice" value=""></textarea>
 	<button type="submit">Add Burger</button>
 </form>
