@@ -5,10 +5,11 @@ USE burgers_db;
 
 CREATE TABLE burgers
 (
-	id int NOT NULL AUTO_INCREMENT,
+	ID INT AUTO_INCREMENT NOT NULL,
 	burger_name varchar(255) NOT NULL,
 	devoured BOOL,
-	date DEFAULT
+	date TIMESTAMP,
+	PRIMARY KEY (ID)
 );
 
 
